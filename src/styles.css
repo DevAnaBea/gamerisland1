@@ -1,0 +1,338 @@
+/*Geral*/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'ABeeZee';
+}
+@font-face {
+  font-family: "Sedan SC Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Sedan SC Regular"), url("/fontes/SedanSC-Regular.woff") format("woff");
+}
+
+/*Topo*/
+
+.topo-bg {
+  background: rgba(41, 155, 172, 0.48);
+  color: white;
+}
+.topo {
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  
+}
+.topo a:link, .topo a:visited {
+  text-decoration: none;
+  color: #625656;
+  font-size: 22px;
+  margin: 10px 10px 10px 10px;
+}
+.topo a:hover {
+  color: #000000;;
+}
+
+/*meio*/
+#btnSacola {
+  max-width: 80.51px;
+  max-height: 89px;
+  
+}
+.meio-bg {
+  background: rgba(83, 189, 205, 0.76);
+  color: white;
+  
+}
+
+.meio {
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 40px;
+  padding-inline-end: 40px;
+}
+
+
+#divBusca{
+  font-family: "ABeeZee";
+  background-color: rgba(229, 229, 229, 0.59);
+  border: none;
+  border-radius:30px;
+  width:490px;
+  vertical-align: center;
+}
+ 
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding: 20px;
+  font-style: Regular;
+  font-family: 'ABeeZee';
+  font-size:18px;
+  border:none;
+  height: 50px;
+  width:420px;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+/*Menu*/
+.menu-bg {
+  background: rgba(41, 155, 172, 0.48);
+  color: white;
+  
+}
+.menu a:link, .menu a:visited {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Sedan SC Regular";
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.menu a:hover {
+  color: gray;
+}
+
+
+.menu {
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#barra {
+  color: rgba(229, 229, 229, 0.59);
+}
+
+/*home*/
+.banner-bg {
+  background: white;
+}
+
+.banner {
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #000000;
+}
+.categoria-home {
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+
+}
+
+.categoria-home a:link, .categoria-home a:visited {
+  text-decoration: none;
+  color: #47B452;
+  font-family: "Sedan SC Regular";
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.produtos {
+  margin: 50px 0px 0px 50px;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.produtos a:link, .produtos a:visited {
+  text-decoration: none;
+  color: #47B452;
+  font-family: "Sedan SC Regular";
+  font-size: 30px;
+  margin: 0 auto;
+}
+.produtos ul, p, span, img {
+  text-align: center;
+  padding: 5px;
+}
+
+.vertodos {
+  padding-bottom: 40px;
+}
+
+/*Rodapé*/
+
+.footer {
+  background: #000000;
+}
+.oferta h6 {
+  font-family: "Sedan SC Regular";
+  font-size: 25px;
+  color: #47B4AE; 
+  margin: 0 auto;
+}
+
+.oferta {
+  padding: 10px;
+  text-align: center;
+}
+
+#divOferta{
+  margin: 0 auto;
+  font-family: "ABeeZee";
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:30px;
+  width:500px;
+  height:32px;
+}
+ 
+#txtOferta{
+ 
+  font-family: "ABeeZee";
+  float:left;
+  background-color:transparent;
+  padding-left:10px; 
+  font-size:18px;
+  border:none;
+  height:px;
+  width:426px;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+ 
+#btnEnviar{
+  
+  font-family: "ABeeZee";
+  border:none;
+  float:left;
+  height:30px;
+  border-radius:0 10px 10px 0;
+  width:70px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+
+
+.social, .ajuda, .categorias, .formaspag {
+  display: flex;
+  font-family: 'ABeeZee';
+  font-style: italic;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: white;
+}
+
+
+.footer a:link, .footer a:visited {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family: 'ABeeZee';
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.rodape {
+  max-width: 1366px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.2fr;
+}
+
+/*formulario de cadastro e login*/
+.container-cad {
+  font-family: 'ABeeZee';
+  display: block;
+  width: 650px;
+  padding:70px;
+  margin: 80px;
+  background: rgba(83, 189, 205, 0.76);
+  border-radius: 20px;
+  justify-content: center;
+}
+
+
+.container-cad fieldset {
+  width: 470px;
+  border-style: none;
+  padding: 0;
+}
+
+.container-bg {
+  max-width: 1366px;
+  display: flex;
+  justify-content:center;
+  margin: 0 auto;
+}
+
+.titulo-cadrastro {
+  font-family: "Sedan SC Regular";
+  font-size: 25px;
+  text-align: center;
+  color: white;
+ 
+}
+.button-cadastro {
+  width: 260px;
+  border-color: #6FCF97;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 5px;
+  background: #6FCF97;
+  color: white;
+  font-size: 18px;
+  font-family: 'ABeeZee';
+}
+.button-cadrastrado {
+  width: 190px;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 0 auto;
+  background: #f1eded;
+  font-family: 'ABeeZee';
+}
+
+#name, #surname, #cpf, #telefone, #email, #subject, #vali-senha, #senha {
+  background-color: rgba(229, 229, 229, 0.59);
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 470px;
+}
+
+#date {
+  background: rgba(229, 229, 229, 0.59);
+  border-style: none;
+  padding: 5px;
+  color: gray;
+  width: 158px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+#redefinir-senha {
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
